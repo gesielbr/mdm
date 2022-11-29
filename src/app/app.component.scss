@@ -1,0 +1,91 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.login-projeto {
+  background-color: var(--base-linx-10);
+  background-color: #411e5a;
+  height: 100vmin;
+}
+
+.login-linx {
+  width: 1090px;
+}
+
+.login-text-brand-linx {
+  font-family: var(--font-family-base), var(--font-family-base-secondary),
+    sans-serif;
+  color: var(--base-yellow-50);
+  color: #ffb200;
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-light);
+  margin-bottom: 0;
+  font-size: clamp(1rem, 0.7605rem + 1.1976vw, 2.25rem);
+}
+
+.login-text-brand-product {
+  color: #fff;
+  font-size: clamp(2.25rem, 1.9027rem + 1.7365vw, 4.0625rem);
+
+  font-family: var(--font-family-highlight), sans-serif;
+  font-family: "Dosis", sans-serif;
+}
+
+.login-copyright {
+  color: #fff;
+  font-size: var(--font-size-3xs);
+  font-size: 12 px;
+  position: absolute;
+  bottom: 0px;
+  font-family: var(--font-family-base), var(--font-family-base-secondary),
+    sans-serif;
+}
+
+.login__logo__linx {
+  max-width: 342px;
+  width: 100%;
+}
+
+lxButton {
+  ::ng-deep {
+    button {
+      text-transform: uppercase;
+      font-family: var(--font-family-base), var(--font-family-base-secondary),
+        sans-serif;
+      font-size: var(--font-size-xxs);
+      text-transform: uppercase;
+      width: 100%;
+      background-color: var(--base-yellow-50) !important;
+      border: none;
+      color: var(--base-gray-10) !important;
+    }
+  }
+}
+
+.login-botao-logar {
+  background-color: #ffb200;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.login-botao-suporte {
+  font-family: var(--font-family-base), var(--font-family-base-secondary),
+    sans-serif;
+  color: var(--base-gray-10);
+  font-size: var(--font-size-xs);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .login-projeto {
+    max-width: 100%;
+    background-color: #411e5a;
+    height: unset;
+  }
+
+  .login-copyright {
+    position: unset;
+  }
+}
