@@ -18,7 +18,6 @@
   color: var(--base-yellow-50);
   color: #ffb200;
   font-size: var(--font-size-xl);
-  font-weight: var(--font-weight-light);
   margin-bottom: 0;
   font-size: clamp(1rem, 0.7605rem + 1.1976vw, 2.25rem);
 }
@@ -26,15 +25,15 @@
 .login-text-brand-product {
   color: #fff;
   font-size: clamp(2.25rem, 1.9027rem + 1.7365vw, 4.0625rem);
-
   font-family: var(--font-family-highlight), sans-serif;
   font-family: "Dosis", sans-serif;
+  font-weight: 100;
 }
 
 .login-copyright {
   color: #fff;
   font-size: var(--font-size-3xs);
-  font-size: 12 px;
+  font-size: clamp(0.75rem, 0.7021rem + 0.2395vw, 1rem);
   position: absolute;
   bottom: 0px;
   font-family: var(--font-family-base), var(--font-family-base-secondary),
